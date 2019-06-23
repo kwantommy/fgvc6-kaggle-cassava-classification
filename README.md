@@ -6,6 +6,14 @@
 4. ResNeXt50
 5. SE-ResNeXt101
 
+The defining feature of ResNet is its residual connections. ResNeXt, built on top of ResNet, incorporates cardinality blocks and SE-ResNet/SE-ResNeXt incorporates squeeze and excitation blocks.
+
+<p float="left">
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnet_architecture.png width=200 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/se.png width=200 float="left"/>
+
+ </p>
+ 
 ## Data augmentation:
 1. Zoom (0.1)
 2. Horizontal Flip
