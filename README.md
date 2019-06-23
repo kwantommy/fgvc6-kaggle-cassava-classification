@@ -1,17 +1,31 @@
 
 # Cassava disease classification using multiple classification architectures: 
-1.
-2.
-3.
-4.
-ResNet50 and 
+1. ResNet50 V1
+2. ResNet101 V1
+3. ResNet50 V2
+4. ResNeXt50
+5. SE-ResNeXt101
 
 ## Data augmentation:
 1. Zoom (0.1)
 2. Horizontal Flip
 3. Vertical Flip 
 
-I chose these 3 because for the purposes of the images, these augmentations do not interfere with the integrety of the image. For example, a plant flipped horizontally can still be seen as a plant and therefore, disease feature extraction would not be affected. 
+These augmentations were chosen because for the purposes of the images, these augmentations do not interfere with the integrety of the image. For example, a plant flipped horizontally can still be seen as a plant and therefore, disease feature extraction would not be affected. 
+
+ <p float="left">
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/images/horizontal_flip.png width=400 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/images/vertical_flip.png width=400 float="left"/>
+   <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/images/zoom.png width=400 float="left"/>
+ </p>
+ 
+
+## ResNet50V1
+Link: https://keras.io/applications/#resnet
+
+Parameters: 25,636,712 (25,583,592 trainable)
+
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/images/Resnet50_training.png width=400/>
 
 
 ## Model Improvements
@@ -32,7 +46,6 @@ Image Size: 224x224
 Colab GPU: 5 minutes
 i5-8300H CPU: 1 hour 30 minutes
 
-2.
-3.
-4.
-5.
+2. Potentially add data augmentation
+3. K-fold cross validation
+4. Test time augmentation
