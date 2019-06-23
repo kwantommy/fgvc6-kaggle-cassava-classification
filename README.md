@@ -34,18 +34,15 @@ There are many improvements that can be made to the model but were not implement
 1. Increase image size 
 For reference, each epoch takes: 
 
-Image Size: 500x500
-Colab GPU: 15 minutes
-i5-8300H CPU: 9 hours
+Image Size: 500x500 - Colab GPU: 15 minutes, i5-8300H CPU: 9 hours
 
-Image Size: 336x336
-Colab GPU: 8 minutes
-i5-8300H CPU: 5 hours
+Image Size: 336x336 - Colab GPU: 8 minutes, i5-8300H CPU: 5 hours
 
-Image Size: 224x224
-Colab GPU: 5 minutes
-i5-8300H CPU: 1 hour 30 minutes
+Image Size: 224x224 - Colab GPU: 5 minutes, i5-8300H CPU: 1 hour 30 minutes
 
 2. Potentially add data augmentation
 3. K-fold cross validation
 4. Test time augmentation
+5. Callbacks (though may not be useful due to the low training epochs)
+ReduceLROnPlateau
+EarlyStopping
