@@ -1,10 +1,8 @@
 
 # Cassava disease classification using multiple classification architectures: 
 1. ResNet50 V1
-2. ResNet101 V1
-3. ResNet50 V2
-4. ResNeXt50
-5. SE-ResNeXt101
+2. MobileNet V2
+3. VGG16
 
 The defining feature of ResNet is its residual connections. ResNeXt, built on top of ResNet, incorporates cardinality blocks and SE-ResNet/SE-ResNeXt incorporates squeeze and excitation blocks.
 
@@ -54,3 +52,5 @@ Image Size: 224x224 - Colab GPU: 5 minutes, i5-8300H CPU: 1 hour 30 minutes
 5. Callbacks (though may not be useful due to the low training epochs)
 ReduceLROnPlateau
 EarlyStopping
+6. Add additional Dense layers to the base model output including DropOut.
+7. Potentially remove the mean from training data. 
