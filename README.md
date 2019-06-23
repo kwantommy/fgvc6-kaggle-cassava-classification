@@ -14,9 +14,9 @@
 These augmentations were chosen because for the purposes of the images, these augmentations do not interfere with the integrety of the image. For example, a plant flipped horizontally can still be seen as a plant and therefore, disease feature extraction would not be affected. 
 
  <p float="left">
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/images/horizontal_flip.png width=400 float="left"/>
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/images/vertical_flip.png width=400 float="left"/>
-   <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/images/zoom.png width=400 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/horizontal_flip.png width=400 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/vertical_flip.png width=400 float="left"/>
+   <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/zoom.png width=400 float="left"/>
  </p>
  
 
@@ -25,7 +25,7 @@ Link: https://keras.io/applications/#resnet
 
 Parameters: 25,636,712 (25,583,592 trainable)
 
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/images/Resnet50_training.png width=400/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/Resnet50_training.png width=400/>
 
 
 ## Model Improvements
