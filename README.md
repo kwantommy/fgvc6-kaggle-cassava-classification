@@ -19,9 +19,10 @@ These augmentations were chosen because for the purposes of the images, these au
  </p>
  
 
-## ResNet50V1 (Val_acc = 0.94, 10 epochs)
+## ResNet50V1 (Val_acc = 0.95, 10 epochs)
 https://arxiv.org/abs/1512.03385
 
+Trained using 336x336 image size, 3x augmentation.
 Parameters: 25,636,712 (25,583,592 trainable)
 
  <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnet_architecture.png width=200/>
@@ -35,6 +36,7 @@ Parameters: 25,636,712 (25,583,592 trainable)
 ## MobileNetV2 (Val_acc = 0.93, 10 epochs)
 https://arxiv.org/pdf/1801.04381.pdf
 
+Trained using 336x336 image size, 3x augmentation.
 Parameters: 2,257,984 (2,223,872 trainable)
 
 
@@ -50,6 +52,7 @@ Parameters: 2,257,984 (2,223,872 trainable)
 ## VGG16 (Val_acc = 0.94, 10 epochs)
 https://arxiv.org/abs/1409.1556
 
+Trained using 336x336 image size, 3x augmentation.
 Parameters: 14,717,253 (14,715,461 trainable)
 
  <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/vgg16_architecture.png width=400/>
@@ -61,9 +64,10 @@ Parameters: 14,717,253 (14,715,461 trainable)
  </p>
  
  
-## SE-ResNeXt101-32x4d
+## SE-ResNeXt101-32x4d (Val_acc = 0.85, 10 epochs)
 https://arxiv.org/abs/1611.05431
 
+Trained using 224x224 image size, 3x augmentation.
 Parameters: 47,054,517 (46,916,661 trainable)
 
  <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnext_architecture.png width=200/>
