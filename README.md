@@ -19,35 +19,35 @@ These augmentations were chosen because for the purposes of the images, these au
  </p>
  
 
-## ResNet50V1 (Val_acc = 0.91, submission = 0.84)
+## ResNet50V1 (Val_acc = 0.94, 10 epochs)
 https://arxiv.org/abs/1512.03385
 
 Parameters: 25,636,712 (25,583,592 trainable)
 
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnet_architecture.png width=400/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnet_architecture.png width=200/>
  
  ### Loss and accuracy curves
   <p float="left">
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnet_50v1_loss.png width=200 float="left"/>
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnet_50v1_accuracy.png width=200 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnet_50v1_loss.png width=400 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnet50v1_accuracy.png width=400 float="left"/>
  </p>
  
-## MobileNetV2
+## MobileNetV2 (Val_acc = 0.93, 10 epochs)
 https://arxiv.org/pdf/1801.04381.pdf
 
 Parameters: 2,257,984 (2,223,872 trainable)
 
 
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_architecture.png width=400/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_architecture.png width=200/>
 
 
 ### Loss and accuracy curves
  <p float="left">
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_loss.png width=200 float="left"/>
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_accuracy.png width=200 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_loss.png width=400 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_accuracy.png width=400 float="left"/>
  </p>
  
-## VGG16
+## VGG16 (Val_acc = 0.94, 10 epochs)
 https://arxiv.org/abs/1409.1556
 
 Parameters: 14,717,253 (14,715,461 trainable)
@@ -56,8 +56,8 @@ Parameters: 14,717,253 (14,715,461 trainable)
  
 ### Loss and accuracy curves
  <p float="left">
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/VGG16_loss.png width=200 float="left"/>
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/VGG16_accuracy.png width=200 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/VGG16_loss.png width=400 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/VGG16_accuracy.png width=400 float="left"/>
  </p>
  
  
@@ -66,12 +66,12 @@ https://arxiv.org/abs/1611.05431
 
 Parameters: 47,054,517 (46,916,661 trainable)
 
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnext_architecture.png width=400/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/resnext_architecture.png width=200/>
 
 ### Loss and accuracy curves
  <p float="left">
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/se_resnext_loss.png width=200 float="left"/>
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/se_resnext_accuracy.png width=200 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/se_resnext_loss.png width=400 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/se_resnext_accuracy.png width=400 float="left"/>
  </p>
 
 ## Model Improvements
