@@ -1,5 +1,5 @@
 
-# Cassava disease classification using multiple classification architectures: 
+## Cassava disease classification using: 
 1. ResNet50V1
 2. MobileNetV2
 3. VGG16
