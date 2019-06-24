@@ -1,8 +1,9 @@
 
 # Cassava disease classification using multiple classification architectures: 
-1. ResNet50 V1
-2. MobileNet V2
+1. ResNet50V1
+2. MobileNetV2
 3. VGG16
+4. SE-ResNeXt101-32x4d
 
 The defining feature of ResNet is its residual connections. ResNeXt, built on top of ResNet, incorporates cardinality blocks and SE-ResNet/SE-ResNeXt incorporates squeeze and excitation blocks.
 
@@ -31,7 +32,26 @@ Link: https://keras.io/applications/#resnet
 
 Parameters: 25,636,712 (25,583,592 trainable)
 
- <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/Resnet50_training.png width=600/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/Resnet50_training.png width=400/>
+ 
+## MobileNetV2
+
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_training.png width=400/>
+
+ <p float="left">
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_loss.png width=200 float="left"/>
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/mobilenetv2_accuracy.png width=200 float="left"/>
+ </p>
+ 
+## VGG16
+
+
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/VGG16_training.png width=400/>
+
+## SE-ResNeXt101-32x4d
+Parameters: 47,054,517 (46,916,661 trainable)
+
+ <img src=https://github.com/kwantommy/fgvc6-kaggle-cassava-classification/blob/master/Images/VGG16_training.png width=400/>
 
 
 ## Model Improvements
